@@ -1,10 +1,17 @@
-# Snakes-and-Ladders
-Snakes and Ladders Game
+# Snakes and Ladders game
+JAVA, APK & JavaScript Project
 
-Options: 1-Single player
-         2-Multiplayer
+A Simple app to your text
 
-Features: 1- Animation when moving 
-          2- ************
-          
-// Created and designed by Me
+Function:
+	1- Live location for every move
+	2- Animate the moving for each player
+	3- Indicate the turn with color changing
+	4- Soon: new map & PC
+
+Available:
+	1- Web Version(beta)
+	2- Windows (You need Java SDK)
+	3- APK (android 7.0 and above)
+
+Created and Designed by MhmdSAbdlh

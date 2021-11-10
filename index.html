@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes & Ladders</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="title">Snakes & Ladders Game</div>
+
+    <!-- Body -->
+    <!-- Get The App -->
+    <div class="sub-title"></div>
+    <div class="board">
+        <img src="img/board.jpg">
+        <img class="player" id="player1" src="img/player1.png">
+        <img class="player" id="player2" src="img/player2.png">
+    </div>
+
+    <!-- Separator -->
+    <div class="title"></div>
+
+    <!--Bottom Row-->
+
+    <div class="rowDiv">
+        <label id="player1Location" class="label">Player 1: 1</label>
+        <label id="playerTurn" class="label">Turn: Player 1</label>
+        <label id="player2Location" class="label">Player 2: 1</label>
+    </div>
+
+    <div class="rowDiv">
+        <img id="dice" class="label" onclick="playerMove()" src="img/dice0.png">
+    </div>
+    
+    <!-- Separator -->
+    <div class="title"></div>
+
+    <!-- Get The App -->
+    <div class="sub-title">GET THE APP</div>
+
+    <div class="rowDiv" >
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/releases/download/new/Snakes.and.Ladders.v2.0.apk">
+            <img src="img/playstore.png">
+        </a>
+    
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/releases/download/new/Snakes.and.Ladders.exe">
+            <img src="img/windows.png">
+        </a>
+    
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/archive/refs/tags/new.zip">
+            <img src="img/sourcecode.png">
+        </a>
+    </div>
+    
+    <!-- Credit -->
+    <h6><div class="credit">Created & Designed by MhmdSAbdlh</div></h6>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

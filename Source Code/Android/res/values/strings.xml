@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Snakes and Ladders</string>
+    <string name="player_blue_0">Blue: 0</string>
+    <string name="player_red_0">Red: 0</string>
+    <string name="turn_blue">Turn: Blue</string>
+    <string name="credit">Created and Designed by MhmdSAbdlh</string>
+    <string name="single_player">Single Player</string>
+    <string name="multi_player">Multi Player</string>
+    <string name="snakes_y_ladders">Snakes y Ladders</string>
+    <string name="change_names">Change names</string>
+    <string name="description">Description</string>
+</resources>
