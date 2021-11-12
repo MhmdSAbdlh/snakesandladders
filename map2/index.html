@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snakes & Ladders</title>
-    <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -14,32 +14,26 @@
     <div class="title">Snakes & Ladders Game</div>
 
     <!-- Body -->
+    <!-- Get The App -->
     <div class="sub-title"></div>
+    <div class="board">
+        <img src="../img/board2.jpg">
+        <img class="player" id="player1" src="../img/player1.png">
+        <img class="player" id="player2" src="../img/player2.png">
+    </div>
+
+    <!-- Separator -->
+    <div class="title"></div>
 
     <!--Bottom Row-->
-    <div class="sub-title">CHOOSE YOUR GAME</div>
-    <br>
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <a href="map1">
-                <img class="zoom" src="img/board.jpg" style="width:50%">
-            </a>
-        </div>
-            
-        <div class="mySlides fade">
-            <a href="map2">
-                <img class="zoom" src="img/board2.jpg" style="width:50%">
-            </a>
-        </div>
+    <div class="rowDiv">
+        <label id="player1Location" class="label">Player 1: 0</label>
+        <label id="player2Location" class="label">Player 2: 0</label>
     </div>
-    <br>
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
+
+    <div class="rowDiv">
+        <img id="dice" class="label" onclick="playerMove()" src="../img/dice0.png">
     </div>
     
     <!-- Separator -->
@@ -50,22 +44,23 @@
 
     <div class="rowDiv" >
         <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/releases/download/new/Snakes.and.Ladders.v2.0.apk">
-            <img src="img/playstore.png">
+            <img src="../img/playstore.png">
         </a>
     
         <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/releases/download/new/Snakes.and.Ladders.exe">
-            <img src="img/windows.png">
+            <img src="../img/windows.png">
         </a>
     
         <a class="imgRef" href="https://github.com/MhmdSAbdlh/Snakes-and-Ladders/archive/refs/tags/new.zip">
-            <img src="img/sourcecode.png">
+            <img src="../img/sourcecode.png">
         </a>
     </div>
+    
+    <audio id="audio"></audio> 
     
     <!-- Credit -->
     <h6><div class="credit">Created & Designed by MhmdSAbdlh</div></h6>
 
-    <script src="js/main.js"></script>
-
+    <script src="../js/map2.js"></script>
 </body>
 </html>

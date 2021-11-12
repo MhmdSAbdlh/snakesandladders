@@ -5,7 +5,7 @@ body{
 .title{
     color: rgb(143, 255, 158);
     font-weight: bolder;
-    font-size: 30px ;
+    font-size: 40px ;
     margin: 2% 5% 0 5%;
     border-bottom: 5px solid #90c586;
     display: block;
@@ -67,11 +67,13 @@ body{
 }
 
 #player1Location{
-    color: skyblue;
+    color: rgb(62, 199, 253);
+    padding: 16px;
 }
 
 #player2Location{
     color: crimson;
+    padding: 16px;
 }
 
 .imgRef{
@@ -86,3 +88,64 @@ body{
     text-align: center;
     text-shadow: 2px 3px 5px black;
 }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.zoom {
+  filter:brightness(1);
+  transition: transform .2s;
+}
+
+.zoom:hover { 
+  transform: scale(1.05);
+  filter:brightness(0.6);
+  transition:opacity scale 2s;
+}
+
